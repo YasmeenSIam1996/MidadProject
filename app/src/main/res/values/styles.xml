@@ -7,6 +7,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:textSize">18sp</item>
 
+    </style>
+
+
+    <style name="title_navigation">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
     </style>
 </resources>

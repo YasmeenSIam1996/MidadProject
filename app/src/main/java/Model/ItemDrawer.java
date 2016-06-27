@@ -5,24 +5,18 @@ package Model;
  */
 public class ItemDrawer {
     private String ItemName;
-    private int Icon;
-    private int Nam_Item;
+    private int Num_Item;
 
-    public ItemDrawer(String itemName, int icon, int nam_Item) {
+    public ItemDrawer(String itemName, int nam_Item) {
         ItemName = itemName;
-        Icon = icon;
-        Nam_Item = nam_Item;
+        Num_Item = nam_Item;
     }
 
     public String getItemName() {
         return ItemName;
     }
 
-    public int getIcon() {
-        return Icon;
-    }
-
-    public int getNam_Item() {
-        return Nam_Item;
+    public int getNum_Item() {
+        return Num_Item;
     }
 }

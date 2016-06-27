@@ -3,4 +3,9 @@
     <color name="colorPrimary">#60bb47</color>
     <color name="colorPrimaryDark">#56a840</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="itemTextColor">#4d4d4d</color>
+    <color name="departmentTextColor">#d8a128</color>
+
+
+
 </resources>

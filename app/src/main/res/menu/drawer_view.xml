@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="single">
         <item
@@ -7,8 +8,10 @@
             android:icon="@drawable/live_broadcast"
             android:title="@string/live_broadcast" />
         <item
+            style="@style/title_navigation"
             android:id="@+id/nav_second_fragment"
             android:icon="@drawable/recent_time"
+
             android:title="@string/recent_time" />
         <item
             android:id="@+id/nav_third_fragment"

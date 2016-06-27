@@ -1,4 +1,4 @@
-package FragmentDrawerAdapter;
+package Adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -39,7 +39,6 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
     public void onBindViewHolder(ViewHolders holder, int position) {
         ItemDrawer item = itemDrawers.get(position);
         holder.itemName.setText(item.getItemName());
-        holder.itemIcon.setImageResource(item.getIcon());
     }
 
     @Override
